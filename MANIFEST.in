@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include eswitch *.css
+recursive-include eswitch *.csv
+recursive-include eswitch *.html
+recursive-include eswitch *.ico
+recursive-include eswitch *.js
+recursive-include eswitch *.json
+recursive-include eswitch *.md
+recursive-include eswitch *.png
+recursive-include eswitch *.py
+recursive-include eswitch *.svg
+recursive-include eswitch *.txt
+recursive-exclude eswitch *.pyc
